@@ -56,9 +56,9 @@ typeEffect();
 
 /* SCROLL ANIMATION */
 
-const sections = document.querySelectorAll("section");
+function revealSections() {
 
-window.addEventListener("scroll", () => {
+    const sections = document.querySelectorAll("section");
 
     sections.forEach(sec => {
 
@@ -70,5 +70,9 @@ window.addEventListener("scroll", () => {
 
     });
 
-});
+}
+
+window.addEventListener("load", revealSections);
+
+window.addEventListener("scroll", revealSections);
 
