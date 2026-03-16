@@ -14,6 +14,10 @@ background:linear-gradient(135deg,#1b2a4d,#050d2e);
 color:white;
 }
 
+html{
+scroll-padding-top:90px;
+}
+
 /* NAVBAR */
 
 nav{
